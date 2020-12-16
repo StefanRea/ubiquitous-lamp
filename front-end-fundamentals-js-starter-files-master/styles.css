@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Courgette', cursive;
+}
+
+header {
+  display: flex;
+  background-color: #C8E9E9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+  width: auto;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ff0000;
+  text-shadow: 3px 3px tan;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  background-color: #ff0000;
+  width: 100%;
+
+}
+
+input {
+  color: #ff0000;
+  background-color: #C8E9E9;
+  border-color: tan;
+  font-family: 'Courgette', cursive;
+  margin-right: 10px;
+}
+
+button {
+  color: #ff0000;
+  background-color: #C8E9E9;
+  text-transform: uppercase;
+  border-color: gold;
+  font-family: 'Courgette', cursive;
+  margin-left: 10px;
+}
+
+
+div {
+  display: table;
+  height: 500px;
+  width: 100%;
+  color: #ff0000;
+  background-color: #C8E9E9;
+  border-color: #3eb489;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8E9E9;
+  color: #ff0000;
+  font-size: 25px;
+  margin: 0;
+  height: 500px;
+  width:100%;
+  text-shadow: 2px 2px tan;
+}
+
+.results {
+  table-layout: fixed;
+
+}
+
+#parallax-booze {
+  background: url('https://thumbs.dreamstime.com/b/cocktails-drinks-vector-black-icons-drink-cocktail-alcohol-cocktail-straw-fruit-illustration-71603779.jpg');
+  background-position: 100%;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+#search-again {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
